@@ -1,0 +1,28 @@
+header {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.notafilme-nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(20, 119, 177);
+}
+
+.notafilme-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+.notafilme-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.notafilme-contact-link{
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
