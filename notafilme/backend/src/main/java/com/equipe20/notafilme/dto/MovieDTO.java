@@ -10,18 +10,14 @@ public class MovieDTO {
 	private Integer count;
 	private String image;
 	
-	public MovieDTO() {
-		
-	}
-
-	public MovieDTO(Long id, String title, Double score, Integer count, String image) {
-		this.id = id;
+	public MovieDTO( Long id, String title, Double score, Integer count, String image) {
+		this.id = id; 
 		this.title = title;
 		this.score = score;
 		this.count = count;
 		this.image = image;
 	}
-	
+
 	public MovieDTO(Movie movie) {
 		this.id = movie.getId();
 		this.title = movie.getTitle();
