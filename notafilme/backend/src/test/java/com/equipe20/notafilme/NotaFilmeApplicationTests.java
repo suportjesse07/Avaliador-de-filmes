@@ -8,6 +8,7 @@ class NotaFilmeApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// teste
 	}
 
 }

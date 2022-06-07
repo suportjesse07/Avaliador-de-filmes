@@ -18,8 +18,9 @@ public class ScorePK implements Serializable {
 	@JoinColumn(name = "user_id")
 	private User user;
 	
+	@override
 	public ScorePK() {
-		
+		//necessário para comunicação interface e banco.
 	}
 
 	public Movie getMovie() {

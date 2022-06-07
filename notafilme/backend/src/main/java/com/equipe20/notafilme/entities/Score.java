@@ -13,9 +13,10 @@ public class Score {
 	
 	
 	private Double value;
-	
+
+	@override
 	public Score(){
-		
+		// necessário para comunicação interface e banco.
 	}
 	
 	public void setMovie(Movie movie) {

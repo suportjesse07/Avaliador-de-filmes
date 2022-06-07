@@ -25,8 +25,9 @@ public class Movie {
 	@OneToMany(mappedBy = "id.movie")
 	private Set<Score> scores = new HashSet<>();
 	
+	@override
 	public Movie() {
-		
+		// Necessário para comunicação com a interface e banco
 	}
 
 	public Movie(Long id, String title, Double score, Integer count, String image) {

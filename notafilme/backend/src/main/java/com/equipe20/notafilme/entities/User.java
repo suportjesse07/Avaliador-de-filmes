@@ -15,8 +15,9 @@ public class User {
 	private Long id;
 	private String email;
 	
+	@override
 	public User() {
-		
+		//necessário para comunicação interface e banco.
 	}
 
 	public User(Long id, String email) {
